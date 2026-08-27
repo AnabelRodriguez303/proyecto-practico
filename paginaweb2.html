@@ -4,39 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="practica.css">
 </head>
 <body>
-
+    
+    
     <!--links de navegacion-->
     <header id="inicio">
-        <h1>CENTRO EDUCATIVO FLORA Y FAUNA</h1>
-        <br>
+    
+    
+        <nav class="menu">
+           
+            
+    
+            <ul id="menu">
+                <img id="ii" src="img/foto6.avif">
+                <section id="titulo"><h1>CENTRO EDUCATIVO FLORA Y FAUNA</h1></section>
+                <li id="jj"><a href="#inicio">Inicio</a></li>
+                <li id="jj"><a href="#servicios">servicios</a></li>
+                <li id="jj"><a href="#noticas">Noticias</a></li>
+                <li id="jj"><a href="#nosotros">nosotros</a></li>
+                <li id="jj"><a href="#contacto">Contactos</a></li>
 
-        <h2>Menu</h2>
-
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#servicios">servicios</a></li>
-                <li><a href="#noticas">Noticias</a></li>
-                <li><a href="#nosotros">nosotros</a></li>
-                <li><a href="#contacto">Contactos</a></li>
+                <section >
+                <button id="boton"><a href="inicio.html">iniciar secion</a></button>
+                <button id="boton"><a href="registro.html">registrate</a></button>
+                </section>
             </ul>
+
+            
         </nav>
+
+        
+    
     </header>
 
 
     <!--contenido de la pagina-->
     <main>
 
-
+        <img src="img/foto1.jpeg" width="1250" height="300">
         <!--noticias-->
         <section id="noticias">
-            <img src="img/foto1.jpeg" width="1250" height="300"></h2>
-            <br>
-            <h2>Novedades</h2>
-            <h3>ESTAMOS DEVUELTA</h3>
-            <p>Nuestro centro educactivo dara inicio a las clases el proximo lunes</p>
+
+            <h2>Novedades:</h2>
+            <h3>ESTAMOS DEVUELTA!!!</h3>
+            <p>Nuestro centro educactivo dara inicio a las clases el proximo lunes 21 de agosto</p>
         </section>
 
         <br>
@@ -49,10 +62,10 @@
         </section>
 
 
-        <section id =nosotros>
+        <section id ="nosotros">
             <h2>Un poco sobre nosotros</h2>
             <p>El centro educativo fauna y flora se fundo en el año 2005, solo teniamos 10 aulas y en nuestra primera graduacion no tuvo mas de 5 estudiantes. Hoy nos enogurllecemos de ofrecer una eduacion de calidad y un buen entorno de desarrollo.</p>
-             <img src="img/foto3.jpeg" width="400" height="200">
+            <img id=foto3 src="img/foto3.jpeg" >
         </section>
 
         <br>
@@ -63,9 +76,41 @@
             <ul>
                 <li>Educacion primaria</li>
                 <li>educacion secundaria</li>
-                <li>Cursos Tecnico gratuitos para estudiantes</li>
+                <li>Cursos Tecnicos </li>
             </ul>
         </section>
+
+        <!--cursos tecnicos-->
+        <section id="cursos">
+            <h2>Sobre nuestros cursos tecnicos</h2>
+            <p>Actualmente tenemos 3 cursos para ofrecer</p>
+            <div class="nn">
+        <section id="card1">
+           <h3>Peluqueria femenina</h3>
+           <img src="img/images3.jpeg">
+           <P>Aprende técnicas básicas de corte, peinado y cuidado del cabello.</P>   
+           <h3>$500</h3>
+           <button>ver mas</button>       
+        </section>
+        <section id="card1">
+           <h3>Excel Basico</h3>
+           <img src="img/images1.jpeg">
+           <p>Aprende a usar Excel para organizar datos, realizar cálculos y crear tablas.</p>
+           <h3>$500</h3>
+           <button>ver mas</button> 
+        </section>
+        <section id="card1">
+           <h3>Auxiliar en contabilidad</h3>
+           <img src="img/images2.jpeg">
+           <p>Conoce los fundamentos de la contabilidad y el manejo de registros financieros.</p>
+           <h3>$500</h3>
+           <button>ver mas</button> 
+        </section>
+        </div>
+
+        </section>
+
+        
 
 
         <!--Contacto-->
@@ -76,19 +121,7 @@
             <li>correo: faunayflora@gmail.com</li>
         </section>
 
-        <!--registro-->
-        <section>
-            <h3>No te pierdas ninguna informacion! registrate en nuestra pagina</h3>
-            <input type="text" placeholder="nombre de usuario">
-            
-            <input type="text" placeholder="correo electronico">
-            
-            <input type="text" placeholder="contraseña">
-            
-            <button>iniciar sesion</button>
-            <p>no tienes una cuenta? registrate</p>
-            <button> <a href="registro.html">registro</a></button>
-        </section>
+        
 </main>
 
 <br>
